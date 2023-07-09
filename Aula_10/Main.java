@@ -1,6 +1,6 @@
 package Aula_10;
 
-public class Faculdade {
+public class Main {
     public static void main(String[] args) {
         //Aluno p1 = new Aluno();
         //Professor p2 = new Professor();

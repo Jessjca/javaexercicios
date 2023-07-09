@@ -1,6 +1,6 @@
 package Aula_08;
 
-public class ProjetoLivro {
+public class Main {
     public static void main(String[] args) {
         Pessoa[] pessoa = new Pessoa[2];
         Livro[] livro = new Livro[1];
