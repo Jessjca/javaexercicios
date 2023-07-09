@@ -1,8 +1,8 @@
 package Aula_11;
 
 public abstract class Animal { //Não pode virar objeto pq é abstrato
-    private float peso;
-    private int idade;
+    protected float peso;
+    protected int idade;
 
     //Métodos abstratos
     public abstract void locomover();
