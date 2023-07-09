@@ -29,4 +29,8 @@ public class Aluno extends Pessoa {
     public void cancelarMatricula() {
         this.matricula = 0;
     }
+
+    public void pagarMensalidade() {
+        System.out.println("Mensalidade paga com sucesso!");
+    }
 }

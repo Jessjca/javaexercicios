@@ -5,12 +5,13 @@ public class Faculdade {
         Aluno p1 = new Aluno();
         Professor p2 = new Professor();
         Funcionario p3 = new Funcionario();
+        Bolsista p4 = new Bolsista();
+        Visitante p5 = new Visitante();
 
-        p1.setNome("Jessica");
-        p1.setCurso("Sistemas de Informação");
-        p2.setNome("Rafael Alexandre");
-        p3.setNome("João");
-        
-        System.out.println(p1.toString());
+        p4.setNome("Jessica");
+        p4.setCurso("Sistemas de Informação");
+        p4.pagarMensalidade();
+
+        System.out.println(p4.toString());
     }
 }

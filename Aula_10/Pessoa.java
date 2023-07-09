@@ -1,9 +1,9 @@
 package Aula_10;
 
 public abstract class Pessoa {
-    private String nome;
-    private int idade;
-    private String sexo;
+    protected String nome;
+    protected int idade;
+    protected String sexo;
 
     // Métodos especiais
     @Override
