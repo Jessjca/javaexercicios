@@ -1,19 +1,29 @@
 package Aula_11;
 
-public class Cachorro extends Mamifero{
-    public void enterrarOsso() {
-        System.out.println("Cachorro está enterrando osso!");
+public class Gato extends Mamifero{
+    public void miar() {
+        System.out.println(getNome() + " está miando!");
     }
 
-    public void cavarBuraco() {
-        System.out.println("Cachorro está cavando buraco");
+    public void seLamber() {
+        System.out.println(getNome() + " está se lambendo");
+    }
+
+    @Override
+    public void emitirAcao() {
+        System.out.println("Miau! Miau! Miau! " + getNome() + " está miando muito!");
+    }
+
+    @Override
+    public void alimentar() {
+        System.out.println("EBA! " + getNome() + " ganhou um Whiskas!");
     }
 
     public void reagir(String frase) {
         if(frase == "Toma petisco" || frase == "Olá") {
             System.out.println("Abanar o rabo e sorrir!");
         }else {
-            System.out.println("Rosnar");
+            System.out.println("Miando feio e mostrando unhas!!");
         }
     }
 

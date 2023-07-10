@@ -1,6 +1,7 @@
 package Aula_11;
 
 public abstract class Animal { //Não pode virar objeto pq é abstrato
+    protected String nome;
     protected float peso;
     protected int idade;
 
@@ -21,5 +22,11 @@ public abstract class Animal { //Não pode virar objeto pq é abstrato
     }
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }

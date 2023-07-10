@@ -14,16 +14,16 @@ public class Mamifero extends Animal{
     //Métodos abstratos
     @Override
     public void alimentar() {
-        System.out.println("Mamando");
+        System.out.println("Comendo");
     }
 
     @Override
     public void emitirAcao() {
-        System.out.println("OUF OUF! OUF OUF OUF!");
+        System.out.println("Som de gato!");
     }
 
     @Override
     public void locomover() {
-        System.out.println("Correndo com suas patinhas!");
+        System.out.println(getNome() + " está correndo com suas patinhas!");
     }
 }
