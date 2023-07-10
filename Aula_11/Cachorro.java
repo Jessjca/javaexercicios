@@ -11,7 +11,7 @@ public class Cachorro extends Mamifero{
 
     public void reagir(String frase) {
         if(frase == "Toma petisco" || frase == "Olá") {
-            System.out.println("Abanar o rabo e latir");
+            System.out.println("Abanar o rabo e sorrir!");
         }else {
             System.out.println("Rosnar");
         }
