@@ -1,6 +1,8 @@
 package Aula_11;
 
 public abstract class Animal { //Não pode virar objeto pq é abstrato
+
+    //Atributos
     protected String nome;
     protected float peso;
     protected int idade;
@@ -9,11 +11,12 @@ public abstract class Animal { //Não pode virar objeto pq é abstrato
     public abstract void locomover();
     public abstract void alimentar();
     public abstract void emitirAcao();
+
+    //Métodos especiais
     public float getPeso() {
         return peso;
     }
 
-    //Métodos especiais
     public void setPeso(float peso) {
         this.peso = peso;
     }
