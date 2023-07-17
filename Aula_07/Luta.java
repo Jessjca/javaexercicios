@@ -1,5 +1,3 @@
-package Aula_07;
-
 import java.util.Random;
 
 public class Luta {
