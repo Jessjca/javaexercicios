@@ -1,5 +1,3 @@
-package Aula_14;
-
 public class Video implements AcoesVideo{
     private String titulo;
     private int avaliacao;
@@ -7,6 +5,8 @@ public class Video implements AcoesVideo{
     private int curtidas;
     private boolean reproduzindo;
 
+    public Video(String string) {
+    }
     //Métodos especiais
     public String getTitulo() {
         return titulo;

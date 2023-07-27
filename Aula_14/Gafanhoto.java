@@ -1,9 +1,9 @@
-package Aula_14;
-
 public class Gafanhoto extends Pessoa{
     private String login;
     private int totalAssistido;
 
+    public Gafanhoto(String string) {
+    }
     //Métodos especiais
     public String getLogin() {
         return login;
